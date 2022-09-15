@@ -1,4 +1,4 @@
-package io.tohure.helloauto
+package io.tohure.common
 
 import androidx.car.app.CarContext
 import androidx.car.app.Screen

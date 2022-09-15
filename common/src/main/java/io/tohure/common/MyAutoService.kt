@@ -1,4 +1,4 @@
-package io.tohure.helloauto
+package io.tohure.common
 
 import android.content.Intent
 import android.content.pm.ApplicationInfo

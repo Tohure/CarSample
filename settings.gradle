@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "HelloAuto"
 include ':automotive'
+include ':common'
+include ':mobile'
