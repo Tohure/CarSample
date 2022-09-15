@@ -21,7 +21,7 @@ class MyAutoService : CarAppService() {
 
     override fun onCreateSession(): Session {
         return object : Session() {
-            override fun onCreateScreen(intent: Intent) = MyCarScreen(carContext)
+            override fun onCreateScreen(intent: Intent) = NextScreen(carContext)
         }
     }
 }

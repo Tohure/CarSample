@@ -27,7 +27,6 @@
         <service
             android:name="io.tohure.common.MyAutoService"
             android:exported="true"
-            android:icon="@mipmap/ic_auto_car"
             android:label="@string/app_automotive_name">
             <intent-filter>
                 <action android:name="androidx.car.app.CarAppService" />
@@ -39,7 +38,7 @@
         <activity
             android:name="androidx.car.app.activity.CarAppActivity"
             android:exported="true"
-            android:label="Hello World"
+            android:label="@string/app_automotive_name"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
 

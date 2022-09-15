@@ -20,6 +20,7 @@
 
         <service
             android:name="io.tohure.common.MyAutoService"
+            android:label="@string/app_auto_name"
             android:exported="true">
             <intent-filter>
                 <action android:name="androidx.car.app.CarAppService" />
