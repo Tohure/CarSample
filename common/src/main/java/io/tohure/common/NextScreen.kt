@@ -7,8 +7,8 @@ import androidx.car.app.model.*
 class NextScreen(carContext: CarContext) : Screen(carContext) {
 
     override fun onGetTemplate(): Template {
-        return MessageTemplate.Builder("Hola Android Dev Peru!")
-            .setHeaderAction(Action.BACK)
+        return MessageTemplate.Builder("¡Hola a todos!")
+            .setHeaderAction(Action.APP_ICON)
             .addAction(
                 Action.Builder()
                     .setTitle("Siguiente")
